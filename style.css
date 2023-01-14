@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1440px) {
+
+    
+
+    .up{
+        height: 500px;
+        width: 99vw;
+        background-image: url(images/bg-pattern-intro-desktop.svg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position: 25% 50% ;
+        background-color: hsl(13, 100%, 72%);
+        border-radius: 0 0 0 100px;
+        padding: 70px 100px;
+        text-align: center;
+        
+    }
+    .bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 50%;
+        display: flex;
+    
+    }
+    .navbar{
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .navbar ul li{
+        list-style: none;
+    }
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .login{
+        display: flex;
+    }
+    .login .para{
+        margin-top: 10px;
+        margin-right: 50px;
+        color: white;
+    }
+    .btn button{
+        background-color: white;
+        color: red;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 0px;
+    }
+    .heading{
+        margin-top: 100px;
+        color: white;
+    }
+    .para-2{
+        margin-top: 50px;
+        color: white;
+    }
+    
+    .buttons{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn-2 button{
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 0px;
+        margin-left: 20px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    .btn-2 button:hover{
+        background-color: white;
+        color: red;
+    }
+    .future{
+        padding-left: 100px;
+        width: 99vw;
+        overflow: hidden;
+    }
+    .heading-1{
+        text-align: center;
+        margin-top: 150px;
+    }
+    .content{
+        display: flex;
+    
+        justify-content: space-between;
+    }
+    .left{
+        width: 50%;
+        padding: 0 80px 0 0;
+    }
+    .heading-2{
+        margin-top: 120px;
+        color: hsl(208, 49%, 24%);
+    }
+    .future h1{
+        color: hsl(208, 49%, 24%); 
+    }
+    .para-3{
+    margin-top: 10px;
+    line-height: 20px;
+    color: gray;
+    }
+    .right{
+        width: 50%;
+        padding: 20px;
+        
+    }
+    .right img{
+        margin-top: -100px;
+        height: 800px;
+    }
+    .right-one{
+        display: none;
+    }    
+    
+    /* mobile  */
+    
+    .mobile{
+        background-image: url(images/bg-pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-position: -63% 80%;
+        width: 99vw;
+        height: 400px;
+        background-color:   hsl(240, 10%, 16%);
+        border-radius: 0 100px 0 100px;
+        box-sizing: border-box;
+        display: flex;
+    }
+    .mobile h1{
+        color: white;
+    }
+    .mobile p{
+        color:   hsl(240, 2%, 79%);   
+    }
+    .pics img{
+        margin-left: 50px;
+        margin-top: -70px;
+    }
+    .mobile .text{
+        width: 50%;
+        color: white;
+        padding: 0 70px;
+    }
+
+/* laptop  */
+
+    .laptop{
+        width: 99vw;
+        display: flex;
+        margin-top: 50px;
+    }
+    .photo{
+        width: 50%;
+        overflow: hidden;
+    }
+    .photo img{
+        width: 120%;
+         margin-left: -240px;
+    }
+    .photo-one{
+        display: none;
+    }
+    .text-one{
+        width: 50%;
+        padding-right: 100px;
+    }
+    footer{
+        background-color:hsl(240, 10%, 16%) ;
+        height: 330px;
+        padding: 50px 250px 0 100px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        border-radius: 0 100px 0 0;
+    }
+    footer ul li{
+        margin-top: 20px;
+        list-style: none;
+        color:   hsl(240, 2%, 79%);
+    }
+    footer ul li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .show{
+        position: absolute;
+        padding-left:10px;
+        margin-top: 10px;
+        background-color: white;
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    .show ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .show ul li{
+        margin-top: 12px;
+    }
+    .show ul li:hover{
+        font-weight: bolder ;
+        cursor: pointer;
+    }
+    #hidden{
+        display: none;
+    }
+    
+    button:hover{
+        cursor: pointer;
+    }
+    .btn button:hover{
+        background-color: red;
+        color: white;
+    }
+    .mobile-bar{
+        display: none;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width : 600px) {
+ 
+    .navbar, .login{
+        display: none;
+    }
+
+    .up{
+        height: 500px;
+        width: 100%;
+        background-image: url(images/bg-pattern-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 36% 45% ;
+        background-color: hsl(13, 100%, 72%);
+        border-radius: 0 0 0 100px;
+        /* padding: 70px 100px; */
+        text-align: center;
+        padding: 0%;
+
+    }
+    .bar{
+        padding: 10px 40px;
+    }
+    .future{
+        padding: 0px;
+        text-align: center;
+        width: 100vw;
+    }
+    .content{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .right img{
+        display: none;
+    }
+    .right-one img{
+        margin-top: 30px;
+    }
+    .left{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .heading-2{
+        margin-top: 10px;
+        color: hsl(208, 49%, 24%);
+    }
+    .future h1{
+        color: hsl(208, 49%, 24%); 
+    }
+    .para-3{
+    margin-top: 10px;
+    line-height: 20px;
+    color: gray;
+    }
+    .mobile{
+        margin-top: 200px;
+        background-image: url(images/bg-pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-position: -63% 80%;
+        width: 99vw;
+        height: 500px;
+        background-color:   hsl(240, 10%, 16%);
+        border-radius: 0 100px 0 100px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+    .pics img{
+        margin-left: 10px;
+        margin-top: -190px;
+        width: 400px;
+    }
+    .mobile .text{
+        width: 100%;
+        color: white;
+        /* padding: 0 70px; */
+        text-align: center;
+    }
+
+    .laptop{
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .photo{
+        width: 100%;
+        overflow: hidden;
+        display: none;
+    }
+    .photo-one img{
+        width: 100%;
+         /* margin-left: -240px; */
+    }
+    .text-one{
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+    footer{
+        margin-top: 40px;
+        background-color:hsl(240, 10%, 16%) ;
+        height: 120vh;
+        /* padding: 50px 250px 0 10px; */
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        border-radius: 0 100px 0 0;
+        text-align: center;
+    }
+
+    footer ul{
+        margin-bottom: 10px;
+    }
+
+    .mobile-bar{
+        display: block;
+    }
+    .mobile-bar img{
+        cursor: pointer;
+    }
+    .bar-mob{
+        position: absolute;
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        left: 140px;
+        right: 1px;
+    }
+    .bar-mob ul{
+        margin-top: 20px;
+    }
+    .bar-mob ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .bar-mob ul li{
+        margin-top: 5px;
+        list-style: none;
+    }
+    .bar-mob ul li a img{
+        filter: invert(100%);
+    }
+
+    .show-bar{
+        display: none;
+    }
+    
+
+    .login-mob button{
+        color: white;
+        background-color: red;
+        margin-top: 10px;
+    }
+    hr{
+        margin: 10px;
+    }
+    .mob-show{
+        margin-left: 10px;
+        background-color: lightgray;
+        width: 88%;
+        border-radius: 10px;
+    }
+    #mob-hidden{
+        display: none;
+    }
+}
